@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="TESTNGDAY1.Listnersdemo" />
+	</listeners>
+	<test name="Test1">
+		<classes>
+			<class name="TESTNGDAY1.DependsonMethodsinTestNG" />
+			<methods>
+				<include name="testmethod1" />
+				<include name="testmethod2" />
+			</methods>
+		</classes>
+	</test>
+	<test name="Test2">
+		<classes>
+			<class name="TESTNGDAY1.DependsonMethodsinTestNG" />
+			<methods>
+				<include name="testmethod3" />
+				<include name="testmethod4" />
+			</methods>
+		</classes>
+	</test>
+</suite>

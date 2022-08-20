@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="10" parallel="classes">
+	<test  name="test1">
+		<classes>
+			<class name="TESTNGDAY1.AmazonParametsrization"/>
+			<class name="TESTNGDAY1.Firefox"/>
+		</classes>
+	</test>
+</suite>
